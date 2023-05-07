@@ -53,9 +53,9 @@ ancak zaman olarak sıkıntımızın olduğu durumlarda bu comment'i kullanarak 
     println(surName)
 
     /**
-     * Değiiken tanımlanırken default olarak val olarak başlatmalıyız.(Best Practice)
-     *  var değişkenler val değişkenlere göre çok çok küçükte olsa daha performanslı çalışır.
-     *  Ancak bir değişkeni val ile tanımlamaya özen göstermeliyiz.Çünkü çoklu bir işlem yaparken tek bir thread yerine multithread kullanılır.
+     *  Değişken tanımlanırken default olarak "val" olarak başlatmalıyız.(Best Practice)
+     *  "var" değişkenler "val" değişkenlere göre çok çok küçükte olsa daha performanslı çalışır.
+     *  Ancak bir değişkeni "val" ile tanımlamaya özen göstermeliyiz.Çünkü çoklu bir işlem yaparken tek bir thread yerine multithread kullanılır.
      *  Bununda belirli bir maliyeti vardır.Çünkü threadlerin birbiri ile haberleşmesi,işlemi hızlandırır ancak bunun belirli bir maliyeti vardır.
      */
 
@@ -65,7 +65,6 @@ ancak zaman olarak sıkıntımızın olduğu durumlarda bu comment'i kullanarak 
 
   /*  var skinTone
     skinTone="White"  --> Bir değişkeni tanımlarken ya tipini ya da değerini vermemiz gerekir.
-
    */
 
 }
