@@ -59,11 +59,11 @@ ancak zaman olarak sıkıntımızın olduğu durumlarda bu comment'i kullanarak 
      *  Bununda belirli bir maliyeti vardır.Çünkü threadlerin birbiri ile haberleşmesi,işlemi hızlandırır ancak bunun belirli bir maliyeti vardır.
      */
 
-    val age=32
-    val eyeColor: String
+    val age=32  //Burada değişken değeri verilmiştir.
+    val eyeColor: String   //Burada değişken tipi verilmiştir.
     eyeColor = "Green"
 
-  /*  var skinTone
+  /*  var skinTone  // This variable must either have a type annotation or be initialized hatası alırız.
     skinTone="White"  --> Bir değişkeni tanımlarken ya tipini ya da değerini vermemiz gerekir.
    */
 
