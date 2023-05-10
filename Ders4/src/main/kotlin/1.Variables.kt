@@ -15,7 +15,8 @@ fun main() {
      */
 
 
-    val number: Int? = null
+    val number: Int? = null // Kotlin'de tanımladığımız primitive değişken "nullable" olursa primitive özelliklerini kaybederek "referans tipli değişkene" dönüşür.
+    
 
     /**
      *      Kotlin'de primitive direkt olarak tanımlanamazlar.
