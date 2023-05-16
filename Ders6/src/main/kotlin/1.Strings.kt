@@ -23,22 +23,26 @@ fun main() {
     val awesomeKekod = "Kekod is Awesome"
     val firstCharOfAwesomeKekod = awesomeKekod[awesomeKekod.indices.first]
     val lastCharOfAwesomeKekod = awesomeKekod[awesomeKekod.indices.last]
+    
+    for (i in 0..awesomeKekod.length-1){
+        println(awesomeKekod[i])
+    }
 
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
     /**
      *      Farklı bir tipte ki bir değişkenin önüne String bir değişken ya da ifade koyarak toplarsanız,sonuç String olur.
-     *      Ancak String bir değişken ya da ifadenin sonuna, + operatörü ile faklı tipte bir değişken eklersiniz, kod çaışmaz
+     *      Ancak String bir değişken ya da ifadenin sonuna, + operatörü ile faklı tipte bir değişken eklersiniz, kod çalışmaz
      */
 
     val numbersValue: String = "value" + (4 + 2 + 8)
     //  val numbersValue2: String = (4 + 2 + 8) + "value" Çalışmaz Comment'i kaldır kontrol et.
 
     /**
-     * Herhangi bir değişken + operatörüne ihtiya duyulmadan direkt olarak "" arasına yazılarak kullanılabilir.
+     * Herhangi bir değişken + operatörüne ihtiyaç duyulmadan direkt olarak "" arasına yazılarak kullanılabilir.
      * Bunun için sadece $ işaretine ihtiyacınız vardır.Bu yapıya String template denir.
-     * Eğer değişkenin bir özelliğine ihtiya duyacaksınız ${} şeklinde kullanılır.
+     * Eğer değişkenin bir özelliğine ihtiyaç duyacaksınız ${} şeklinde kullanılır.
      */
     println("numbersValue: $numbersValue")
     println("numbersValue: ${numbersValue.length}")
