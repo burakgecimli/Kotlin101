@@ -6,6 +6,8 @@
  *  2) Fonksiyon bir üye fonksiyon olmalıdır.(Bir sınıfa ait olmalıdır ya da extension function olmalıdır.)
  *  3) Sadece bir parametre almalıdır.Bu parametre "vararg" olamaz.
  *  4) İnfix metoduun parametresi default parametre olamaz.
+
+ * ->Bir parametre alma sebebi true.or(false,true) bir infix çağırım olsaydı true or false true şekilinde okunarlığı bozuk bir kod olacaktı.
  *
  *   infix fun infixMethodName (justOneParam : AwesomeParamType) : WhateverType{
  *           ....
